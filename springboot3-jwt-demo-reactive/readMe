@@ -1,0 +1,11 @@
+Endpoints to access 
+
+Step 1 : Insert one user to generate the token 
+localhost:9003/user/saveUser
+
+Step 2 : Generate token by using the username password you inserted in database
+localhost:9003/auth/login
+
+
+Step 3 : Now Pass the generated token in authorization
+localhost:9003/user/get/1
